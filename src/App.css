@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  border: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Quicksand", sans-serif;
+  line-height: 1.5;
+
+  color: #8964b0;
+  background-color: #f5ffff;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 5rem;
+  margin: 1.5rem 0;
+}
+
+.pillow-section {
+  padding: 1.5rem 1.5rem 1rem 1.5rem;
+  border-radius: 10px;
+  max-width: 40%;
+  max-height: 50%;
+  background-color: #ebe7ef;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.pillow-section p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.pillow-section img {
+  max-width: 70%;
+  object-fit: cover;
+  margin: auto;
+  display: block;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.buttons-and-inputs {
+  max-width: 50%;
+  max-height: 50%;
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.arrow-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+}
+
+.input {
+  font-family: inherit;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.input:focus {
+  outline: none;
+  border-color: dodgerblue;
+  box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+}
+
+.btn {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+  cursor: pointer;
+}
